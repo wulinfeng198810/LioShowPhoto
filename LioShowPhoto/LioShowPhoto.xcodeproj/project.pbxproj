@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34AC82A4F7E7FDB5F637CE4D /* Pods_LioShowPhotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF50CD7A8C301643E111FC1 /* Pods_LioShowPhotoUITests.framework */; };
+		97C2CF1148E82D877865B139 /* Pods_LioShowPhotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC037074689187DCE6B3152E /* Pods_LioShowPhotoTests.framework */; };
 		B3477CAF1EB087B200A08714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CAE1EB087B200A08714 /* AppDelegate.swift */; };
 		B3477CB11EB087B200A08714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CB01EB087B200A08714 /* ViewController.swift */; };
 		B3477CB41EB087B200A08714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3477CB21EB087B200A08714 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B3477CB91EB087B200A08714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3477CB71EB087B200A08714 /* LaunchScreen.storyboard */; };
 		B3477CC41EB087B200A08714 /* LioShowPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CC31EB087B200A08714 /* LioShowPhotoTests.swift */; };
 		B3477CCF1EB087B200A08714 /* LioShowPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CCE1EB087B200A08714 /* LioShowPhotoUITests.swift */; };
+		B6A8C26335EB51CBBA6632EC /* Pods_LioShowPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65480EA591AB1D7A86326E4 /* Pods_LioShowPhoto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ABFCCE11369CF9F51B85CED /* Pods-LioShowPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioShowPhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LioShowPhoto/Pods-LioShowPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		0D142473928F977EB847A06C /* Pods-LioShowPhotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioShowPhotoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LioShowPhotoTests/Pods-LioShowPhotoTests.release.xcconfig"; sourceTree = "<group>"; };
+		10958EC3F92AC0636DEE8DD2 /* Pods-LioShowPhotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioShowPhotoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LioShowPhotoUITests/Pods-LioShowPhotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B438B5582AFF23153B4FABD /* Pods-LioShowPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioShowPhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-LioShowPhoto/Pods-LioShowPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		329B3EB9ACBB62E91FD0AD78 /* Pods-LioShowPhotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioShowPhotoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LioShowPhotoTests/Pods-LioShowPhotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DF50CD7A8C301643E111FC1 /* Pods_LioShowPhotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LioShowPhotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3477CAB1EB087B200A08714 /* LioShowPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LioShowPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3477CAE1EB087B200A08714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3477CB01EB087B200A08714 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		B3477CCA1EB087B200A08714 /* LioShowPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioShowPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3477CCE1EB087B200A08714 /* LioShowPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioShowPhotoUITests.swift; sourceTree = "<group>"; };
 		B3477CD01EB087B200A08714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC037074689187DCE6B3152E /* Pods_LioShowPhotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LioShowPhotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65480EA591AB1D7A86326E4 /* Pods_LioShowPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LioShowPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCFABE5F5D58483FC57990E /* Pods-LioShowPhotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioShowPhotoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LioShowPhotoUITests/Pods-LioShowPhotoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A8C26335EB51CBBA6632EC /* Pods_LioShowPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C2CF1148E82D877865B139 /* Pods_LioShowPhotoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AC82A4F7E7FDB5F637CE4D /* Pods_LioShowPhotoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010C6598FD13616414DEF056 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ABFCCE11369CF9F51B85CED /* Pods-LioShowPhoto.debug.xcconfig */,
+				1B438B5582AFF23153B4FABD /* Pods-LioShowPhoto.release.xcconfig */,
+				329B3EB9ACBB62E91FD0AD78 /* Pods-LioShowPhotoTests.debug.xcconfig */,
+				0D142473928F977EB847A06C /* Pods-LioShowPhotoTests.release.xcconfig */,
+				10958EC3F92AC0636DEE8DD2 /* Pods-LioShowPhotoUITests.debug.xcconfig */,
+				FBCFABE5F5D58483FC57990E /* Pods-LioShowPhotoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B3477CA21EB087B200A08714 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				B3477CC21EB087B200A08714 /* LioShowPhotoTests */,
 				B3477CCD1EB087B200A08714 /* LioShowPhotoUITests */,
 				B3477CAC1EB087B200A08714 /* Products */,
+				010C6598FD13616414DEF056 /* Pods */,
+				B5F36AE059F3EDA256EFE8F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = LioShowPhotoUITests;
 			sourceTree = "<group>";
 		};
+		B5F36AE059F3EDA256EFE8F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E65480EA591AB1D7A86326E4 /* Pods_LioShowPhoto.framework */,
+				CC037074689187DCE6B3152E /* Pods_LioShowPhotoTests.framework */,
+				5DF50CD7A8C301643E111FC1 /* Pods_LioShowPhotoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3477CD31EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhoto" */;
 			buildPhases = (
+				40DF162DD9A369420A93D66A /* [CP] Check Pods Manifest.lock */,
 				B3477CA71EB087B200A08714 /* Sources */,
 				B3477CA81EB087B200A08714 /* Frameworks */,
 				B3477CA91EB087B200A08714 /* Resources */,
+				6A6A2403F99B3D56D800D27F /* [CP] Embed Pods Frameworks */,
+				7D648B78520FA819A9A3B124 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3477CD61EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhotoTests" */;
 			buildPhases = (
+				CB0D9F0EFED676EEC2E7D1BC /* [CP] Check Pods Manifest.lock */,
 				B3477CBB1EB087B200A08714 /* Sources */,
 				B3477CBC1EB087B200A08714 /* Frameworks */,
 				B3477CBD1EB087B200A08714 /* Resources */,
+				91390DF00A476AD72CED6938 /* [CP] Embed Pods Frameworks */,
+				81DEC2EFF57E913914E05273 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3477CD91EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhotoUITests" */;
 			buildPhases = (
+				3454CDFA15ACCD6B0F704B52 /* [CP] Check Pods Manifest.lock */,
 				B3477CC61EB087B200A08714 /* Sources */,
 				B3477CC71EB087B200A08714 /* Frameworks */,
 				B3477CC81EB087B200A08714 /* Resources */,
+				E8D0773617FF5B6628489A15 /* [CP] Embed Pods Frameworks */,
+				7BE75A3060848115C5269C6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3454CDFA15ACCD6B0F704B52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40DF162DD9A369420A93D66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6A2403F99B3D56D800D27F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioShowPhoto/Pods-LioShowPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE75A3060848115C5269C6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioShowPhotoUITests/Pods-LioShowPhotoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D648B78520FA819A9A3B124 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioShowPhoto/Pods-LioShowPhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DEC2EFF57E913914E05273 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioShowPhotoTests/Pods-LioShowPhotoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91390DF00A476AD72CED6938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioShowPhotoTests/Pods-LioShowPhotoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0D9F0EFED676EEC2E7D1BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D0773617FF5B6628489A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioShowPhotoUITests/Pods-LioShowPhotoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3477CA71EB087B200A08714 /* Sources */ = {
@@ -415,6 +602,7 @@
 		};
 		B3477CD41EB087B200A08714 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABFCCE11369CF9F51B85CED /* Pods-LioShowPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG9DJHT235;
@@ -428,6 +616,7 @@
 		};
 		B3477CD51EB087B200A08714 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B438B5582AFF23153B4FABD /* Pods-LioShowPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG9DJHT235;
@@ -441,6 +630,7 @@
 		};
 		B3477CD71EB087B200A08714 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329B3EB9ACBB62E91FD0AD78 /* Pods-LioShowPhotoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +646,7 @@
 		};
 		B3477CD81EB087B200A08714 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D142473928F977EB847A06C /* Pods-LioShowPhotoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +662,7 @@
 		};
 		B3477CDA1EB087B200A08714 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10958EC3F92AC0636DEE8DD2 /* Pods-LioShowPhotoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VG9DJHT235;
@@ -485,6 +677,7 @@
 		};
 		B3477CDB1EB087B200A08714 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCFABE5F5D58483FC57990E /* Pods-LioShowPhotoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VG9DJHT235;
