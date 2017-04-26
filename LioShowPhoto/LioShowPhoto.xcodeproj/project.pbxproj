@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3477CAF1EB087B200A08714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CAE1EB087B200A08714 /* AppDelegate.swift */; };
+		B3477CB11EB087B200A08714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CB01EB087B200A08714 /* ViewController.swift */; };
+		B3477CB41EB087B200A08714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3477CB21EB087B200A08714 /* Main.storyboard */; };
+		B3477CB61EB087B200A08714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3477CB51EB087B200A08714 /* Assets.xcassets */; };
+		B3477CB91EB087B200A08714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3477CB71EB087B200A08714 /* LaunchScreen.storyboard */; };
+		B3477CC41EB087B200A08714 /* LioShowPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CC31EB087B200A08714 /* LioShowPhotoTests.swift */; };
+		B3477CCF1EB087B200A08714 /* LioShowPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3477CCE1EB087B200A08714 /* LioShowPhotoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3477CC01EB087B200A08714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3477CA31EB087B200A08714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3477CAA1EB087B200A08714;
+			remoteInfo = LioShowPhoto;
+		};
+		B3477CCB1EB087B200A08714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3477CA31EB087B200A08714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3477CAA1EB087B200A08714;
+			remoteInfo = LioShowPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3477CAB1EB087B200A08714 /* LioShowPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LioShowPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3477CAE1EB087B200A08714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3477CB01EB087B200A08714 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3477CB31EB087B200A08714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3477CB51EB087B200A08714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3477CB81EB087B200A08714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3477CBA1EB087B200A08714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3477CBF1EB087B200A08714 /* LioShowPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioShowPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3477CC31EB087B200A08714 /* LioShowPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioShowPhotoTests.swift; sourceTree = "<group>"; };
+		B3477CC51EB087B200A08714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3477CCA1EB087B200A08714 /* LioShowPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioShowPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3477CCE1EB087B200A08714 /* LioShowPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioShowPhotoUITests.swift; sourceTree = "<group>"; };
+		B3477CD01EB087B200A08714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3477CA81EB087B200A08714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3477CBC1EB087B200A08714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3477CC71EB087B200A08714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3477CA21EB087B200A08714 = {
+			isa = PBXGroup;
+			children = (
+				B3477CAD1EB087B200A08714 /* LioShowPhoto */,
+				B3477CC21EB087B200A08714 /* LioShowPhotoTests */,
+				B3477CCD1EB087B200A08714 /* LioShowPhotoUITests */,
+				B3477CAC1EB087B200A08714 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3477CAC1EB087B200A08714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3477CAB1EB087B200A08714 /* LioShowPhoto.app */,
+				B3477CBF1EB087B200A08714 /* LioShowPhotoTests.xctest */,
+				B3477CCA1EB087B200A08714 /* LioShowPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3477CAD1EB087B200A08714 /* LioShowPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				B3477CAE1EB087B200A08714 /* AppDelegate.swift */,
+				B3477CB01EB087B200A08714 /* ViewController.swift */,
+				B3477CB21EB087B200A08714 /* Main.storyboard */,
+				B3477CB51EB087B200A08714 /* Assets.xcassets */,
+				B3477CB71EB087B200A08714 /* LaunchScreen.storyboard */,
+				B3477CBA1EB087B200A08714 /* Info.plist */,
+			);
+			path = LioShowPhoto;
+			sourceTree = "<group>";
+		};
+		B3477CC21EB087B200A08714 /* LioShowPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3477CC31EB087B200A08714 /* LioShowPhotoTests.swift */,
+				B3477CC51EB087B200A08714 /* Info.plist */,
+			);
+			path = LioShowPhotoTests;
+			sourceTree = "<group>";
+		};
+		B3477CCD1EB087B200A08714 /* LioShowPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3477CCE1EB087B200A08714 /* LioShowPhotoUITests.swift */,
+				B3477CD01EB087B200A08714 /* Info.plist */,
+			);
+			path = LioShowPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3477CAA1EB087B200A08714 /* LioShowPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3477CD31EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhoto" */;
+			buildPhases = (
+				B3477CA71EB087B200A08714 /* Sources */,
+				B3477CA81EB087B200A08714 /* Frameworks */,
+				B3477CA91EB087B200A08714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LioShowPhoto;
+			productName = LioShowPhoto;
+			productReference = B3477CAB1EB087B200A08714 /* LioShowPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3477CBE1EB087B200A08714 /* LioShowPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3477CD61EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhotoTests" */;
+			buildPhases = (
+				B3477CBB1EB087B200A08714 /* Sources */,
+				B3477CBC1EB087B200A08714 /* Frameworks */,
+				B3477CBD1EB087B200A08714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3477CC11EB087B200A08714 /* PBXTargetDependency */,
+			);
+			name = LioShowPhotoTests;
+			productName = LioShowPhotoTests;
+			productReference = B3477CBF1EB087B200A08714 /* LioShowPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3477CC91EB087B200A08714 /* LioShowPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3477CD91EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhotoUITests" */;
+			buildPhases = (
+				B3477CC61EB087B200A08714 /* Sources */,
+				B3477CC71EB087B200A08714 /* Frameworks */,
+				B3477CC81EB087B200A08714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3477CCC1EB087B200A08714 /* PBXTargetDependency */,
+			);
+			name = LioShowPhotoUITests;
+			productName = LioShowPhotoUITests;
+			productReference = B3477CCA1EB087B200A08714 /* LioShowPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3477CA31EB087B200A08714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Leo;
+				TargetAttributes = {
+					B3477CAA1EB087B200A08714 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VG9DJHT235;
+						ProvisioningStyle = Automatic;
+					};
+					B3477CBE1EB087B200A08714 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VG9DJHT235;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3477CAA1EB087B200A08714;
+					};
+					B3477CC91EB087B200A08714 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VG9DJHT235;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3477CAA1EB087B200A08714;
+					};
+				};
+			};
+			buildConfigurationList = B3477CA61EB087B200A08714 /* Build configuration list for PBXProject "LioShowPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3477CA21EB087B200A08714;
+			productRefGroup = B3477CAC1EB087B200A08714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3477CAA1EB087B200A08714 /* LioShowPhoto */,
+				B3477CBE1EB087B200A08714 /* LioShowPhotoTests */,
+				B3477CC91EB087B200A08714 /* LioShowPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3477CA91EB087B200A08714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3477CB91EB087B200A08714 /* LaunchScreen.storyboard in Resources */,
+				B3477CB61EB087B200A08714 /* Assets.xcassets in Resources */,
+				B3477CB41EB087B200A08714 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3477CBD1EB087B200A08714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3477CC81EB087B200A08714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3477CA71EB087B200A08714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3477CB11EB087B200A08714 /* ViewController.swift in Sources */,
+				B3477CAF1EB087B200A08714 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3477CBB1EB087B200A08714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3477CC41EB087B200A08714 /* LioShowPhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3477CC61EB087B200A08714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3477CCF1EB087B200A08714 /* LioShowPhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3477CC11EB087B200A08714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3477CAA1EB087B200A08714 /* LioShowPhoto */;
+			targetProxy = B3477CC01EB087B200A08714 /* PBXContainerItemProxy */;
+		};
+		B3477CCC1EB087B200A08714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3477CAA1EB087B200A08714 /* LioShowPhoto */;
+			targetProxy = B3477CCB1EB087B200A08714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3477CB21EB087B200A08714 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3477CB31EB087B200A08714 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3477CB71EB087B200A08714 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3477CB81EB087B200A08714 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3477CD11EB087B200A08714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3477CD21EB087B200A08714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3477CD41EB087B200A08714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG9DJHT235;
+				INFOPLIST_FILE = LioShowPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.LioShowPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3477CD51EB087B200A08714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG9DJHT235;
+				INFOPLIST_FILE = LioShowPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.LioShowPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3477CD71EB087B200A08714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VG9DJHT235;
+				INFOPLIST_FILE = LioShowPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.LioShowPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LioShowPhoto.app/LioShowPhoto";
+			};
+			name = Debug;
+		};
+		B3477CD81EB087B200A08714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VG9DJHT235;
+				INFOPLIST_FILE = LioShowPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.LioShowPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LioShowPhoto.app/LioShowPhoto";
+			};
+			name = Release;
+		};
+		B3477CDA1EB087B200A08714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VG9DJHT235;
+				INFOPLIST_FILE = LioShowPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.LioShowPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LioShowPhoto;
+			};
+			name = Debug;
+		};
+		B3477CDB1EB087B200A08714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VG9DJHT235;
+				INFOPLIST_FILE = LioShowPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.LioShowPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LioShowPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3477CA61EB087B200A08714 /* Build configuration list for PBXProject "LioShowPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3477CD11EB087B200A08714 /* Debug */,
+				B3477CD21EB087B200A08714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3477CD31EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3477CD41EB087B200A08714 /* Debug */,
+				B3477CD51EB087B200A08714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3477CD61EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3477CD71EB087B200A08714 /* Debug */,
+				B3477CD81EB087B200A08714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3477CD91EB087B200A08714 /* Build configuration list for PBXNativeTarget "LioShowPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3477CDA1EB087B200A08714 /* Debug */,
+				B3477CDB1EB087B200A08714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3477CA31EB087B200A08714 /* Project object */;
+}
